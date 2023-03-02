@@ -87,11 +87,15 @@ body {
 }
 
 /* -------------------Button-------------- */
-.hero .button-hero {
+.button-hero {
   color: var(--main-bgrnd-color);
   background-color: var(--accent-color);
   font-family: inherit;
   font-weight: 500;
+  width: 169px;
+  height: 56px;
+  font-size: 16px;
+  line-height: 1.5;
   align-items: center;
   letter-spacing: 0.04em;
   cursor: pointer;
