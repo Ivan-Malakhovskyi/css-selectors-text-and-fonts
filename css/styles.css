@@ -38,21 +38,24 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.link-logo {
-  color: var(--accent-color);
-}
+/* На 1 сторінці норм,потрібно змінити клас link в портфоліо */
 .link-header-studio {
   color: var(--title-text-color);
 }
 .link {
   text-decoration: none;
 }
+.navigation .site-nav .link.current {
+  color: var(--accent-page-color);
+}
 /* ----------------Навігація---------------- */
 .navigation {
   color: var(--title-text-color);
 }
 .site-nav,
-.link-contact {
+.link-contact,
+.link.current {
+  color: var(--accent-page-color);
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -66,9 +69,6 @@ body {
   font-style: normal;
 }
 
-.site-nav .link.current {
-  color: var(--accent-page-color);
-}
 .site-nav .link {
   color: var(--title-text-color);
 }
