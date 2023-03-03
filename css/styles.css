@@ -232,7 +232,7 @@ body {
 .footer {
   background-color: var(--title-text-color);
 }
-.link-logo,
+.link-footer,
 .footer-studio {
   font-family: "Raleway", sans-serif;
   color: var(--accent-color);
