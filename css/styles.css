@@ -60,9 +60,9 @@ body {
   color: var(--title-text-color);
 }
 
-.navigation .site-nav .item-list.current {
+/* .navigation .site-nav .item-list.current {
   color: var(--accent-page-color);
-}
+} */
 /* ----------------Навігація---------------- */
 .navigation {
   color: var(--title-text-color);
@@ -77,7 +77,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.site-nav .link.item-list {
+.site-nav .link .item-list.current {
   color: var(--title-text-color);
 }
 
