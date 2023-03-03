@@ -57,7 +57,7 @@ body {
   color: var(--title-text-color);
 }
 
-.navigation .site-nav .link.current {
+.navigation .site-nav .item-list.current {
   color: var(--accent-page-color);
 }
 /* ----------------Навігація---------------- */
@@ -81,14 +81,14 @@ body {
   font-style: normal;
 }
 
-.site-nav .link {
+.site-nav .item-list {
   color: var(--title-text-color);
 }
-.site-nav .link {
+.site-nav .item-list {
   text-decoration: none;
 }
-.link:hover,
-.link:focus {
+.item-list:hover,
+.item-list:focus {
   color: var(--accent-page-color);
 }
 
@@ -224,7 +224,7 @@ body {
   list-style: none;
 }
 
-.link {
+.item-list {
   text-decoration: none;
 }
 .portfolio-title {
@@ -245,8 +245,7 @@ body {
 .footer {
   background-color: var(--title-text-color);
 }
-.link-footer,
-.footer-studio {
+.footer .link-footer {
   font-family: "Raleway", sans-serif;
   color: var(--accent-color);
   font-weight: 800;
