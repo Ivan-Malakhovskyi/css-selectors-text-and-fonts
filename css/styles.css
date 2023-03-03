@@ -77,7 +77,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.site-nav .list {
+.site-nav .link.item-list {
   color: var(--title-text-color);
 }
 
