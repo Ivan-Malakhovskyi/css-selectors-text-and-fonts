@@ -45,6 +45,7 @@ body {
 }
 .item-list {
   color: var(--title-text-color);
+  text-decoration: none;
 }
 .navigation .link-logo {
   color: var(--accent-color);
@@ -53,7 +54,7 @@ body {
 .site-nav .link-logo-item {
   color: var(--accent-color);
 }
-/* На 1 сторінці норм,потрібно змінити клас link в портфоліо */
+
 .link-header-studio,
 .link-logo-item {
   color: var(--title-text-color);
@@ -212,6 +213,9 @@ body {
   letter-spacing: 0.04em;
   cursor: pointer;
 }
+.link {
+  text-decoration: none;
+}
 .btn-item:hover,
 .btn-item:focus {
   color: var(--main-bgrnd-color);
@@ -229,6 +233,7 @@ body {
 .item-list {
   text-decoration: none;
 }
+
 .portfolio-title {
   color: var(--title-text-color);
   font-weight: 500;
