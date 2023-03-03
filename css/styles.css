@@ -35,19 +35,21 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.33;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .link-logo {
   color: var(--title-text-color);
+  text-decoration: none;
+}
+.item-list {
+  color: var(--title-text-color);
 }
 .navigation .link-logo {
   color: var(--accent-color);
 }
-.link {
-  text-decoration: none;
-}
+
 .site-nav .link-logo-item {
   color: var(--accent-color);
 }
@@ -250,9 +252,10 @@ body {
   color: var(--accent-color);
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.33;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 .footer-studio {
