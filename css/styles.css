@@ -29,6 +29,7 @@ body {
 /* Шрифти */
 
 /* Logo  Web та Studio */
+
 .link-logo,
 .link-header-studio {
   font-family: "Raleway", sans-serif;
@@ -38,13 +39,24 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-/* На 1 сторінці норм,потрібно змінити клас link в портфоліо */
-.link-header-studio {
+.link-logo {
   color: var(--title-text-color);
+}
+.navigation .link-logo {
+  color: var(--accent-color);
 }
 .link {
   text-decoration: none;
 }
+.site-nav .link-logo-item {
+  color: var(--accent-color);
+}
+/* На 1 сторінці норм,потрібно змінити клас link в портфоліо */
+.link-header-studio,
+.link-logo-item {
+  color: var(--title-text-color);
+}
+
 .navigation .site-nav .link.current {
   color: var(--accent-page-color);
 }
@@ -79,13 +91,14 @@ body {
 .link:focus {
   color: var(--accent-page-color);
 }
+
 /*---------------- Contacts--------------- */
 .contact .link-contact {
   color: var(--main-text-color);
 }
 .contact .link-contact:hover,
 .contact .link-contact:focus {
-  color: var(--accent-color);
+  color: var(--accent-page-color);
 }
 /* --------------Main ---------*/
 /* -----------Hero--------- */
