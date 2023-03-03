@@ -10,7 +10,7 @@
   --footer-text-color: #e7e9fc;
 }
 body {
-  color: var(--main-bgrnd-color);
+  color: var(--main-text-color);
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.5;
@@ -18,7 +18,7 @@ body {
 
 .body .body {
   color: var(--main-text-color);
-  background-color: #fff;
+  background-color: var(--main-bgrnd-color);
 }
 /*-------------- Логотип компанії ------------*/
 
@@ -27,22 +27,26 @@ body {
 }
 
 /* Шрифти */
-.body .navigation .link-header-web {
-  color: var(--accent-color);
-}
+
 /* Logo  Web та Studio */
-.navigation .link-logo,
-.navigation .link-header-web {
-  color: var(--title-text-color);
+.link-logo,
+.link-header-studio {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+.link-logo {
+  color: var(--accent-color);
+}
+.link-header-studio {
+  color: var(--title-text-color);
+}
+.link {
   text-decoration: none;
 }
-
 /* ----------------Навігація---------------- */
 .navigation {
   color: var(--title-text-color);
@@ -52,19 +56,28 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.33;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 .adress-list .link-contact {
   font-weight: 400;
+  line-height: 1.5;
   text-decoration: none;
+  font-style: normal;
 }
 
 .site-nav .link.current {
   color: var(--accent-page-color);
 }
 .site-nav .link {
+  color: var(--title-text-color);
+}
+.site-nav .link {
   text-decoration: none;
+}
+.link:hover,
+.link:focus {
+  color: var(--accent-page-color);
 }
 /*---------------- Contacts--------------- */
 .contact .link-contact {
@@ -76,7 +89,8 @@ body {
 }
 /* --------------Main ---------*/
 /* -----------Hero--------- */
-.hero {
+.hero,
+.hero-title {
   color: var(--main-bgrnd-color);
   background-color: var(--title-text-color);
   font-weight: 700;
@@ -104,7 +118,7 @@ body {
 .button-hero:focus {
   background-color: var(--accent-page-color);
 }
-
+/* ----------------SECTION 2 -переваги  */
 .section .section-title {
   color: var(--title-text-color);
   font-weight: 500;
@@ -117,18 +131,23 @@ body {
   letter-spacing: 0.02em;
 }
 /* section-subject */
-.section .section-subject {
+.section {
   color: var(--title-text-color);
+}
+.section-subject {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
+
 /* ----------------Team----------- */
 .team {
   background-color: var(--additional-background-color);
 }
+
 .section .section-caption {
   color: var(--title-text-color);
   font-weight: 500;
@@ -192,10 +211,10 @@ body {
   list-style: none;
 }
 
-.links-works {
+.link {
   text-decoration: none;
 }
-.portfolio-list .portfolio-title {
+.portfolio-title {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 20px;
@@ -213,19 +232,21 @@ body {
 .footer {
   background-color: var(--title-text-color);
 }
-.link-web,
-.link-studio {
+.link-logo,
+.footer-studio {
   font-family: "Raleway", sans-serif;
   color: var(--accent-color);
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.7;
+  line-height: 1.33;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.footer .link-studio {
+
+.footer-studio {
   color: var(--additional-background-color);
 }
+
 .footer .footer-text {
   color: var(--footer-text-color);
 
