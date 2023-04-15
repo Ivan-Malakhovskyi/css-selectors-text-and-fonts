@@ -80,7 +80,9 @@ body {
 .site-nav .link .item-list.current {
   color: var(--title-text-color);
 }
-
+.navigation .site-nav .link.current {
+  color: var(--accent-color);
+}
 .adress-list .link-contact {
   font-weight: 400;
   line-height: 1.5;
